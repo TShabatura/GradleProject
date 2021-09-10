@@ -40,3 +40,9 @@ publishing {
 tasks.named('test') {
     useTestNG()
 }
+
+task helloWorld{
+    doLast{
+       }
+        println ("Hello world")
+    }
