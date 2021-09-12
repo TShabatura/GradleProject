@@ -37,8 +37,10 @@ publishing {
     }
 }
 
-tasks.named('test') {
-    useTestNG()
+test {
+    useTestNG(){
+        useDefaultListeners = true
+    }
 }
 
 task helloWorld{
