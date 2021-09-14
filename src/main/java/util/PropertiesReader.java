@@ -23,13 +23,4 @@ public class PropertiesReader {
         return URL;
     }
 
-    public String getDriverName(){
-        String driverName = property.getProperty("CHROME_DRIVER_NAME");
-        return driverName;
-    }
-
-    public String getDriverLocation(){
-        String driverLocation = property.getProperty("CHROME_DRIVER_LOCATION");
-        return driverLocation;
-    }
 }
